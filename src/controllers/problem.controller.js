@@ -10,6 +10,7 @@ function addProblem(req, res, next) {
   try {
     // nothing implemented
     throw new NotImplemented("Add Problem");
+    // throw new BadRequest("Problem Name", { missing: ["Problem Name"] });
   } catch (error) {
     next(error);
   }
